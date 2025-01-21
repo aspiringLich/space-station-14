@@ -232,6 +232,8 @@
     guides:
     - Bartender
     - Drinks
+  - type: Stylesheet
+    stylesheet: Syndicate
 
 - type: entity
   parent: VendingMachine
@@ -1946,6 +1948,8 @@
     color: "#d82929"
   - type: AccessReader
     access: [["NuclearOperative"], ["SyndicateAgent"]]
+  - type: Stylesheet
+    stylesheet: Syndicate
 
 - type: entity
   parent: VendingMachine
@@ -2171,4 +2175,6 @@
     ejectDelay: 2
   - type: AccessReader
     access: [["SyndicateAgent"]]
+  - type: Stylesheet
+    stylesheet: Syndicate
 
