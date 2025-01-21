@@ -13,6 +13,7 @@ public static class Palettes
     public static readonly ColorPalette Cyan = new ColorPalette("#42586a", lightnessShift: 0.05f, chromaShift: 0.0045f);
     public static readonly ColorPalette Slate = new ColorPalette("#545562");
     public static readonly ColorPalette Neutral = new ColorPalette("#555555");
+    public static readonly ColorPalette Dark = new ColorPalette("#383838");
 
     // status tones
     public static readonly ColorPalette Red = new ColorPalette("#b62124", chromaShift: 0.2f);
