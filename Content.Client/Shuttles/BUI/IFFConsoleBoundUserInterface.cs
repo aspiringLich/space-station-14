@@ -22,6 +22,7 @@ public sealed class IFFConsoleBoundUserInterface : BoundUserInterface
         base.Open();
 
         _window = this.CreateWindow<IFFConsoleWindow>();
+        _window.ApplyStylesheetFrom(Owner);
         _window.ShowIFF += SendIFFMessage;
         _window.ShowVessel += SendVesselMessage;
         _window.OpenCenteredLeft();
