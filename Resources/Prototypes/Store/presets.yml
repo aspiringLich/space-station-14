@@ -4,7 +4,6 @@
   components:
   - type: Store
     name: store-preset-name-uplink
-    stylesheet: Syndicate
     categories:
     - UplinkWeaponry
     - UplinkAmmo
@@ -21,6 +20,8 @@
     - Telecrystal
     balance:
       Telecrystal: 0
+  - type: Stylesheet
+    stylesheet: Syndicate
 
 - type: entity
   id: StorePresetSpellbook
