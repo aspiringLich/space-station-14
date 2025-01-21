@@ -13,6 +13,7 @@ public static class Palettes
     public static readonly ColorPalette Cyan = new ColorPalette("#42586a"){ LightnessShift = 0.05f, ChromaShift = 0.0045f }.Construct();
     public static readonly ColorPalette Slate = new ColorPalette("#545562").Construct();
     public static readonly ColorPalette Neutral = new ColorPalette("#555555").Construct();
+    public static readonly ColorPalette Dark = new ColorPalette("#383838").Construct();
 
     // status tones
     public static readonly ColorPalette Red = new ColorPalette("#b62124"){ ChromaShift = 0.02f }.Construct();
