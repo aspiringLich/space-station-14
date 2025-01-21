@@ -135,3 +135,5 @@
     providedRecipes:
     - RecipeBaguetteSword
     - RecipeThrowingCroissant
+  - type: Stylesheet
+    stylesheet: Syndicate
